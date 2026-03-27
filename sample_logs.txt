@@ -1,0 +1,9 @@
+--- MARKET ORDER LOG ---
+2026-03-28 00:48:26,151 | INFO | trading_bot | Binance client initialized successfully (TESTNET)
+2026-03-28 00:48:26,152 | INFO | trading_bot | Placing order: BTCUSDT | BUY | MARKET | 0.002 | None | None
+2026-03-28 00:48:27,198 | INFO | trading_bot | Raw API response: {'orderId': 12999962765, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8ab2f42355238d158b93ed', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774639107615}
+
+--- LIMIT ORDER LOG ---
+2026-03-28 00:48:37,542 | INFO | trading_bot | Binance client initialized successfully (TESTNET)
+2026-03-28 00:48:37,543 | INFO | trading_bot | Placing order: BTCUSDT | SELL | LIMIT | 0.002 | 63000.0 | None
+2026-03-28 00:48:38,496 | INFO | trading_bot | Raw API response: {'orderId': 12999962982, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ827f7e665c632316d6ce2d', 'price': '63000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774639118916}

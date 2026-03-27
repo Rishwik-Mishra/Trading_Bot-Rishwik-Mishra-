@@ -1,0 +1,11 @@
+README.md
+setup.py
+bot/__init__.py
+bot/client.py
+bot/logging_config.py
+bot/orders.py
+bot/validators.py
+trading_bot.egg-info/PKG-INFO
+trading_bot.egg-info/SOURCES.txt
+trading_bot.egg-info/dependency_links.txt
+trading_bot.egg-info/top_level.txt
